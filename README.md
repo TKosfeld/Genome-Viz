@@ -10,5 +10,9 @@ TSV file data handler operating using argparse command line.
 **Example**
 
 ```
-python3 MergePackage.py datasets/ Test -d group1pre group2pre group2post1 group2post6  -b 0 0 1 1 -t 0 0 1 2
+python3 MergePackage.py datasets/ Test -d group1pre group2pre group2post1 group2post6  -b 0 0 1 1 
 ```
+
+**Sprint 1 Burndown**
+![Command Line Format](https://cdn.discordapp.com/attachments/215581700556718080/681399375141928961/unknown.png)
+
