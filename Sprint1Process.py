@@ -60,11 +60,31 @@ def fillDict(input_data):
 				data_dict.setdefault(key,{})[i] = int(value)
 		f.close()
 	return data_dict
+def writeCSV(namelist, binarylist, timelist, data_dict, length):
+	print('Dictionary building done, writing to file.')
+	with open(args.output + '.csv', 'w') as csv_file:
+		writer = csv.writer(csv_file)
+		writer.writerow(namelist)
+		writer.writerow(binarylist)
+		for key1, key2 in data_dict.items():
+			if len(key2) < 4:
+				continue
+			row = []
+			row.append(key1)
+			i = 0
+			for i in range(length):
+				if i in key2.keys():
+					row.append(key2[i])
+				else:
+					row.append(0)
+			writer.writerow(row)
+
 
 # Main body
 filelist, blist, tlist = loadData()
 nlist = getNames(input_data = filelist)
 ddict = fillDict(input_data = filelist)
-print(ddict)
+#print(ddict)
+writeCSV(namelist = nlist, binarylist = blist, timelist = tlist, data_dict = ddict, length = len(filelist))
 print('Running time: ', tm.time() - start_time)
 
