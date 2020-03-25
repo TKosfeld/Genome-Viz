@@ -15,6 +15,7 @@ python3 MergePackage.py datasets/ Test -d group1pre group2pre group2post1 group2
 
 **Sprint 1 Burndown**
 ![Command Line Format](https://cdn.discordapp.com/attachments/215581700556718080/681399617467842600/unknown.png)
+
 Tasks:
 - Import and utilize Argparse Module to allow flexibility in file selection.
 - Evaluate Program efficiency using tm.time.
@@ -32,6 +33,7 @@ Tasks:
 
 **Sprint 2 Burndown**
 ![Command Line Format](https://media.discordapp.net/attachments/215581700556718080/692495522832973854/sprint2.png)
+
 Tasks:
 - For current coherence, single cohort data frames should be recorded and expressed as .csv files.
 - For coherence the prototype should notify the user when single cohort files have been processed into a singular dictionary.
