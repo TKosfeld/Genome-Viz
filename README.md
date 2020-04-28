@@ -45,6 +45,48 @@ Tasks:
 - Relevant columns lacking data dictionary entries for a certain sequence should be represented with 0’s in the row.
 - Relevant efficiency and timekeeping functions should be updated to accommodate new workloads.
 
-**Sprint 2 Burndown**
+**Sprint 3 Burndown**
 ![Command Line Format]()
+
+Tasks: (6 Tasks, 2 Weeks)
+- Line separation should be mutable between \t and ,.
+- Column specification should be mutable through argparse specification.
+- Filetype should be mutable through argparse specification.
+- Institute filtering of relevant data for classification.
+- Mutable line separation variable is employed on a line by line basis when processing data.
+- Dataset specification will allow for multiple datasets to be joined from a single directory specified in the command line.
+
+**Sprint 4 Burndown**
+![Command Line Format]()
+
+Tasks: (9 Tasks, 2 Weeks)
+- Cohort data frames should be processed and interpreted as floats.
+- Cohort representations should be created through concatenation of all labeled files.
+- The joining of this genomic data should be done by averaging sequence expression over the cohort.
+- For each shared sequence between the two cohorts I want to calculate a percentage deviation.
+- To avoid skewed data the percentage deviation should be normalized between 0 and 100%/
+- The mean of these normalized percentages will be displayed as the overall deviation between cohorts.
+- These normalized percentages should be appended to the dataframe.
+- The sequences with the largest deviations should be presented as high-impact characteristic sequences.
+- The program should display the 50 highest impact sequences and their mean representation in each cohort.
+
+**Sprint 5 Burndown**
+![Command Line Format]()
+
+Tasks: (12 Tasks, 1 Week)
+- The program needs to import dash and dash_bio for their visualization capabilities.
+- The program should have an html template and dash app for server creation.
+- The dash app object should be created with coherent text and color.
+- The visualization process should receive the data of the 50 highest impact sequences, sorted by cohort deviation.
+- The cohorts should be visualized side by side in a clustergram to properly visualize differences.
+- The clustergram colors should be distinct and conductive towards differentiation.
+- The clustergram should identify possible clusters and recurrent behavior.
+- Cohort columns should be labelled appropriately.
+- Rows should be identified by sequence.
+- The graph should be fitted to the screen while being large enough to distinguish individual rows.
+- The graph should be added to the template in the app object.
+- The server should be run without debugging to maintain an interactive single-run visualization.
+
+
+
 
