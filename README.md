@@ -46,7 +46,7 @@ Tasks:
 - Relevant efficiency and timekeeping functions should be updated to accommodate new workloads.
 
 **Sprint 3 Burndown**
-![Command Line Format]()
+![Command Line Format](https://cdn.discordapp.com/attachments/215581700556718080/705823231034130573/unknown.png)
 
 Tasks: (6 Tasks, 2 Weeks)
 - Line separation should be mutable between \t and ,.
@@ -57,7 +57,7 @@ Tasks: (6 Tasks, 2 Weeks)
 - Dataset specification will allow for multiple datasets to be joined from a single directory specified in the command line.
 
 **Sprint 4 Burndown**
-![Command Line Format]()
+![Command Line Format](https://cdn.discordapp.com/attachments/215581700556718080/705823231034130573/unknown.png)
 
 Tasks: (9 Tasks, 2 Weeks)
 - Cohort data frames should be processed and interpreted as floats.
@@ -71,7 +71,7 @@ Tasks: (9 Tasks, 2 Weeks)
 - The program should display the 50 highest impact sequences and their mean representation in each cohort.
 
 **Sprint 5 Burndown**
-![Command Line Format]()
+![Command Line Format](https://cdn.discordapp.com/attachments/215581700556718080/705823397237620736/unknown.png)
 
 Tasks: (12 Tasks, 1 Week)
 - The program needs to import dash and dash_bio for their visualization capabilities.
