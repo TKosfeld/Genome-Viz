@@ -13,6 +13,10 @@ TSV file data handler operating using argparse command line.
 python3 Genome_Viz.py test_data/ test -d MPXVInfected2wks MPXVInfected8wks -b 0 1  
 ```
 
+![Command Line Format](https://cdn.discordapp.com/attachments/215581700556718080/705905500717318244/unknown.png)
+
+![Command Line Format](https://cdn.discordapp.com/attachments/215581700556718080/705912357234409562/unknown.png)
+
 **Sprint 1 Burndown**
 ![Command Line Format](https://cdn.discordapp.com/attachments/215581700556718080/681399617467842600/unknown.png)
 
