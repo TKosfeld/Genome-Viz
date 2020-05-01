@@ -46,6 +46,7 @@ Tasks:
 - Relevant efficiency and timekeeping functions should be updated to accommodate new workloads.
 
 **Sprint 3 Burndown**
+
 ![Command Line Format](https://cdn.discordapp.com/attachments/215581700556718080/705823231034130573/unknown.png)
 
 Tasks: (6 Tasks, 2 Weeks)
@@ -57,6 +58,7 @@ Tasks: (6 Tasks, 2 Weeks)
 - Dataset specification will allow for multiple datasets to be joined from a single directory specified in the command line.
 
 **Sprint 4 Burndown**
+
 ![Command Line Format](https://cdn.discordapp.com/attachments/215581700556718080/705823231034130573/unknown.png)
 
 Tasks: (9 Tasks, 2 Weeks)
@@ -71,6 +73,7 @@ Tasks: (9 Tasks, 2 Weeks)
 - The program should display the 50 highest impact sequences and their mean representation in each cohort.
 
 **Sprint 5 Burndown**
+
 ![Command Line Format](https://cdn.discordapp.com/attachments/215581700556718080/705823397237620736/unknown.png)
 
 Tasks: (12 Tasks, 1 Week)
